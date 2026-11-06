@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Issue Book</title>
+    </head>
+
+    <body>
+       <section>  <!-- navigation of entire website -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="books.html">BOOKS</a></li>
+                    <li><a href="membership.html">MEMBERSHIP</a></li>
+                    <li><a href="issuebook.html">ISSUE BOOK</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+            </nav>
+        </section>
+        <hr>
+        <h2>
+            Issue Book Form
+        </h2>
+        <p>
+        Fill out the details below to issue a book from our Library.
+        </p>
+        <br>
+        <br>
+        <main>
+        <form>
+
+            <label for="bookid">Book Id</label>
+            <input type="number"
+            name="bookid"
+            id="bookid"
+            placeholder="Enter Book Id"
+            required>
+<br><br>
+            <label for="bookname">Book Name</label>
+            <input type="text"
+            name="bookname"
+            id="bookname"
+            placeholder="Enter Book Name"
+            required>
+<br><br>
+
+            <label for="membername">Member Name </label>
+            <input type="text"
+            name="membername"
+            id="membername"
+            placeholder="Enter Your Name"
+            required>
+            <br><br>
+
+            <label for="membershipid">Membership ID</label>
+            <input type="number"
+            name="membershipid"
+            id="membershipid"
+            placeholder="Enter your Membership ID">
+            <br><br>
+
+            <label for="issuedate">Issue Date</label>
+            <input type="date"
+            name="issuedate"
+            id="issuedate"
+            required>
+
+
+            <label for="returndate">Return date</label>
+            <input type="date"
+            name="returndate"
+            id="returndate"
+            required>
+<br><br>
+            <label for="contact">Contact</label>
+            <input type="tel"
+            name="contact"
+            id="contact"
+            placeholder="Enter contact number"
+            required>
+            <br><br>
+
+            <label for="address">Address</label><br>
+            <textarea id="address"
+            name="address"
+            rows="4"
+            cols="40"
+            placeholder="Enter your Adress"
+            required></textarea>
+            <br><br>
+
+            <label for="city">City</label>
+            <select id="city" 
+            name="city" required>
+            <option value="" selected disabled >select city</option>
+            <option value="delhi">delhi</option>
+            <option value="noida">noida</option>
+            <option value="gaziabad">gaziabad</option>
+            <option value="gurgaon">gurgaon</option>
+            </select>
+<br><br>
+            <input type="checkbox"
+            name="agree"
+            id="agree"
+            required>
+            <label for="agree">I agree to return this book on time.</label>
+            <br><br>
+            <input type="reset" value="reset">
+            <input type="submit" value="Issue Book">
+
+        </form>
+        </main>
+        </body>
+        
+    
+</html>

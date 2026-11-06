@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Membership</title>
+    </head>
+    <body>
+        <section>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="books.html">BOOKS</a></li>
+                <li><a href="membership.html">MEMBERSHIP</a></li>
+                <li><a href="issuebook.html">ISSUE BOOK</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        </section>
+        <hr>
+        <main>
+            <h2>
+               <u>Library Membership Form</u> 
+            </h2>
+            <p>Fill out the form below to become a member of our Library</p>
+
+               <form>
+
+                <label for="fullname">Full Name</label>
+                <input type="text" 
+                name="Full_Name"
+                id="fullname"
+                placeholder="Enter FullName"
+                required>
+                <br><br>
+
+                <label for="email">Email</label>
+                <input
+                type="email"
+                id="email"
+                name="email_id"
+                placeholder="Enter your Email ID"
+                required> 
+                <br><br>
+
+                <label for="contact">Contact</label>
+                <input type="tel"
+                id="contact"
+                name="Phone"
+                placeholder="Enter your Contact Number"
+                required>
+                <br><br>
+
+                <h3>Gender:</h3>
+                
+                
+                
+                <input type="radio"
+                id="male"
+                name="gender"
+                value="male">
+                <label for="male">male</label>
+                <br>
+
+                <input type="radio"
+                id="female"
+                name="gender"
+                value="female">
+                <label for="female">female</label>
+                <br>
+
+                <input type="radio"
+                id="others"
+                name="gender"
+                value="others">
+                <label for="others">others</label>
+                <br><br>    
+                
+                <label for="dob">Date of Birth</label>
+                <input type="date"
+                id="dob"
+                name="dob">
+             <br><br>
+
+                <h3>Membership:</h3>
+
+                <input type="radio"
+                id="regular"
+                name="membership"
+                value="regular">
+                <label for="regular">Regular</label>
+                <br>
+
+                <input type="radio"
+                id="plus"
+                name="membership"
+                value="plus">
+                <label for="plus">Plus</label>
+                <br>
+                 
+                <input type="radio"
+                id="pro"
+                name="membership"
+                value="pro">
+                <label for="pro">Pro</label>
+                
+                <h3>Preferred Books</h3>
+                 
+               <input type="checkbox"
+               id="Sci-Fi"
+               name="categories"
+               value="Sci-Fi">
+               <label for="Sci-Fi">Sci-Fi</label> 
+               <br>
+
+               <input type="checkbox"
+               id="Selfhelp"
+               name="categories"
+               value="Selfhelp">
+               <label for="Selfhelp">Self Help</label> 
+               <br>
+
+               <input type="checkbox"
+               id="Finance"
+               name="categories"
+               value="Finance">
+               <label for="Finance">Finance</label> 
+               <br>
+
+               <input type="checkbox"
+               id="Fantasy"
+               name="categories"
+               value="Fantasy">
+               <label for="Fantasy">Fantasy</label> 
+               <br>
+
+               <input type="checkbox"
+               id="Thriller"
+               name="categories"
+               value="Thriller">
+               <label for="Thriller">Thriller</label> 
+               <br><br>  
+
+               <label for="address">Address</label><br>
+               <textarea id="address" name="address" rows="4" cols="40"
+                placeholder="Enter your address"></textarea>
+                <br>
+
+              <label for="city">city</label>
+            
+              <select id = "city" name="city" required>
+              <option value="" selected disabled>select city</option>
+              <option value="delhi">delhi</option> 
+              <option value="agra">agra</option>
+              <option value="noida">noida</option>
+              
+
+            </select>
+            <br><br><br>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Register"> 
+             
+            </form>
+
+        </main>
+    </body>
+</html>
